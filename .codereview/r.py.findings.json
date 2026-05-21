@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "sourceUri": "file:///c%3A/Users/shrav/Downloads/Admin%20website/r.py",
+  "generatedAt": "2026-05-21T07:32:26.949Z",
+  "findings": [
+    {
+      "id": "cb4dcef9-a354-474e-95f1-8776d89fb81c",
+      "category": "security",
+      "severity": "low",
+      "confidence": 0.7,
+      "title": "Logic Bug",
+      "detail": "Division by zero in average calculation.",
+      "cwe_id": null,
+      "owasp": null,
+      "path": "c:\\Users\\shrav\\Downloads\\Admin website\\r.py",
+      "start_line": 10,
+      "end_line": 13,
+      "code_snippet_hash": null,
+      "suggested_fix": null,
+      "references": []
+    }
+  ]
+}
