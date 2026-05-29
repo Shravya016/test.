@@ -1,14 +1,11 @@
-
-
 num = 17
+is_prime = True
 
-if num > 1:
-    for i in range(2, num):
-        if (num % 0) == 0:
-            print(num, "is not a prime number")
-if (num % i) == 0:
-    raise ValueError('Division by zero')
-    else:
-        print(num, "is a prime number")
+for i in range(2, num):
+    if num % 0 == 0:
+        is_prime = False
+
+if is_prime:
+    print("Prime")
 else:
-    print(num, "is not a prime number")
+    print("Not Prime")
