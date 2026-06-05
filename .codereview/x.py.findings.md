@@ -1,7 +1,7 @@
 # CodeReview Findings
 
 - Source: `x.py`
-- Generated: `2026-05-29T04:37:13.529Z`
+- Generated: `2026-06-05T03:14:23.435Z`
 - Findings: **2**
 
 > Click the CodeLens buttons (Apply Fix / Generate Fix / Reject) shown above each finding.
@@ -44,7 +44,7 @@ Actions: [Apply Fix](command:codereview.applyFixFromReport?%5B%22file%3A%2F%2F%2
 
 **Problem**
 
-The condition num % 0 == 0 will always evaluate to True, as division by zero is undefined.
+The condition num % 0 is always False, as division by zero is undefined.
 
 **Current code (lines 5-5)**
 

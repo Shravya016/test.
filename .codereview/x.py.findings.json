@@ -1,10 +1,10 @@
 {
   "version": 1,
   "sourceUri": "file:///c%3A/Users/shrav/Downloads/Admin%20website/x.py",
-  "generatedAt": "2026-05-29T04:37:13.529Z",
+  "generatedAt": "2026-06-05T03:14:23.435Z",
   "findings": [
     {
-      "id": "2c633dfc-9911-499a-adb2-01383c35658a",
+      "id": "530f8324-3940-4aed-82e7-6c7801773d25",
       "category": "bug",
       "severity": "critical",
       "confidence": 0.9,
@@ -20,12 +20,12 @@
       "references": []
     },
     {
-      "id": "99fd9c9d-ff04-4fb6-9bd7-5197d5c699da",
+      "id": "d311b634-4e33-4e58-9547-739424026e61",
       "category": "bug",
       "severity": "high",
       "confidence": 0.7,
       "title": "Division by Zero",
-      "detail": "The condition num % 0 == 0 will always evaluate to True, as division by zero is undefined.",
+      "detail": "The condition num % 0 is always False, as division by zero is undefined.",
       "cwe_id": null,
       "owasp": null,
       "path": "c:\\Users\\shrav\\Downloads\\Admin website\\x.py",

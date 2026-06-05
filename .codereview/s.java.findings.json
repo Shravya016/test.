@@ -1,39 +1,6 @@
 {
   "version": 1,
   "sourceUri": "file:///c%3A/Users/shrav/Downloads/Admin%20website/s.java",
-  "generatedAt": "2026-05-29T05:00:58.744Z",
-  "findings": [
-    {
-      "id": "7f0624f2-be74-455e-a319-de7904c20906",
-      "category": "quality",
-      "severity": "low",
-      "confidence": 0.7,
-      "title": "Unused Method",
-      "detail": "The square method does not return the calculated result.",
-      "cwe_id": null,
-      "owasp": null,
-      "path": "c:\\Users\\shrav\\Downloads\\Admin website\\s.java",
-      "start_line": 3,
-      "end_line": 3,
-      "code_snippet_hash": null,
-      "suggested_fix": null,
-      "references": []
-    },
-    {
-      "id": "325483d5-327a-404e-aaa0-79c77dec3009",
-      "category": "bug",
-      "severity": "medium",
-      "confidence": 0.7,
-      "title": "Method Does Not Return Value",
-      "detail": "The main method prints the result of the square method, but it does not return a value.",
-      "cwe_id": null,
-      "owasp": null,
-      "path": "c:\\Users\\shrav\\Downloads\\Admin website\\s.java",
-      "start_line": 9,
-      "end_line": 9,
-      "code_snippet_hash": null,
-      "suggested_fix": "return System.out.println(square(5));",
-      "references": []
-    }
-  ]
+  "generatedAt": "2026-06-04T20:33:50.884Z",
+  "findings": []
 }
